@@ -92,6 +92,15 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>2.7</version>
+                        <executions>
+                            <execution>
+                                <id>run-cobertura</id>
+                                <goals>
+                                    <goal>cobertura</goal>
+                                </goals>
+                                <phase>test-compile</phase>
+                            </execution>
+                        </executions>
                         <dependencies>
                             <dependency>
                                 <groupId>org.ow2.asm</groupId>

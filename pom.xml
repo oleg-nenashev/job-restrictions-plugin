@@ -101,6 +101,7 @@
                                 <phase>test-compile</phase>
                                 <configuration>
                                     <format>xml</format>
+                                    <outputDirectory>${project.basedir}/target</outputDirectory>
                                 </configuration>
                             </execution>
                         </executions>
